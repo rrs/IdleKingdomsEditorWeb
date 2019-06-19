@@ -1,0 +1,28 @@
+{
+  "name": "idle-kingdoms-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eventlistener": "0.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hexgrid": "file:../react-hexgrid",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "scripts": {
+    "build": "webpack -d",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "author": "",
+  "license": "ISC"
+}
